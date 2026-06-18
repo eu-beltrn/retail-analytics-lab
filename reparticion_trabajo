@@ -1,0 +1,41 @@
+¡Excelente! Es una distribución muy lógica porque mantiene la continuidad de las tareas: quien crea las tablas se encarga de la estructura inicial, quien genera los datos los carga y los consulta, y quien optimiza se encarga del cierre técnico y los gráficos.
+
+Dado que la Parte 12 (los entregables: Repositorio, Documentación y Análisis) requiere el esfuerzo de todos, lo ideal es que cada integrante documente y prepare su sección a medida que avanza.
+
+Aquí tienes las dos opciones listas para que se las muestres y las debatan en equipo:
+
+Opción 1: Tu propuesta original (Estructurada por bloques consecutivos)
+Esta opción es muy limpia porque cada integrante se adueña por completo de una fase del ciclo de vida de los datos (Estructura ➔ Datos y Consultas ➔ Optimización y Visualización).
+
+Integrante 1: Infraestructura y Estructura Base (EUNICE)
+Parte 1: Configuración del Entorno (Ya hecho)
+
+Parte 2: Configuración de Google Cloud y Credenciales (Ya casi hecho)
+
+Parte 3: Conexión desde Python (Validar que el archivo .json conecte bien).
+
+Parte 4: Creación del Dataset (retail_dw).
+
+Parte 5: Construcción de Tablas (Clientes, Productos, Ventas en SQL).
+
+Aporte a Parte 12: Configurar la estructura del repositorio Git (/sql, /notebooks) y documentar la arquitectura inicial.
+
+
+Integrante 2: Generación, Ingesta y Análisis (NICOLE)
+Parte 6: Generación de Datos con Python (Faker y random para los 100k registros).
+
+Parte 7: Carga de Datos en BigQuery (Subir los archivos .csv generados).
+
+Parte 8: Consultas Analíticas (Resolver las preguntas de negocio mediante SQL).
+
+Aporte a Parte 12: Guardar los datasets en la carpeta /datasets, los scripts de consulta en /sql y responder las primeras 3 preguntas del análisis de resultados.
+
+
+Integrante 3: Optimización y Business Intelligence (BI) (JONATHAN)
+Parte 9: Optimización (Crear tablas particionadas y con clustering, comparar rendimientos).
+
+Parte 10: Materialized View (Crear la vista materializada y medir mejoras).
+
+Parte 11: Dashboard Exploratorio en Python (Gráficos con matplotlib o seaborn).
+
+Aporte a Parte 12: Documentar los tiempos de ejecución, responder las preguntas sobre particiones/clustering y aportar las conclusiones técnicas.
